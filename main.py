@@ -388,14 +388,14 @@ def run_simulation():
 
     sim=int(input("1- test line\n2- Loud_City_NY\n3- High_way\n"))
     if sim==1:
-        simulation_path="C:/Users/barak/Sumo/test_Line/osm.sumocfg"
+        simulation_path="Sumo/test_Line/osm.sumocfg"
         simulation = 'test_Line'
         specific_car_id = "f_0.1"
     if sim==2:
-        simulation_path="C:/Users/barak/Sumo/Loud_City_NY/osm.sumocfg"
+        simulation_path="Sumo/Loud_City_NY/osm.sumocfg"
         simulation = 'Loud_City_NY'
     if sim==3:
-        simulation_path="C:/Users/barak/Sumo/High_way/osm.sumocfg"
+        simulation_path="Sumo/High_way/osm.sumocfg"
         simulation = 'High_way'
 
     print(simulation)
